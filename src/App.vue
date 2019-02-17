@@ -1,0 +1,19 @@
+<template>
+  <div id="app">
+    1
+  </div>
+</template>
+
+<script>
+export default {
+
+}
+</script>
+
+<style>
+
+#app {
+  background-color: pink;
+}
+
+</style>
