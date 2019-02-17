@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    1
+    2
   </div>
 </template>
 
@@ -10,7 +10,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="less"> 
 
 #app {
   background-color: pink;
