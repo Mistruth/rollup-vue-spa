@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <el-button type="primary">1234</el-button>
+    <el-button type="primary" plain>这是一个按钮</el-button>
   </div>
 </template>
 
@@ -11,9 +11,5 @@ export default {
 </script>
 
 <style lang="less"> 
-
-#app {
-  background-color: pink;
-}
 
 </style>
