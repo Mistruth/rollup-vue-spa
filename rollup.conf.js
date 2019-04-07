@@ -11,7 +11,8 @@ const cssnano = require('cssnano')
 // const rollupless = require('rollup-plugin-less')
 // const css = require('rollup-plugin-css-only')
 const visualizer = require('rollup-plugin-visualizer')
-
+import serve from 'rollup-plugin-serve'
+import livereload from 'rollup-plugin-livereload'
 const isProduction = process.env.NODE_ENV === 'production'
 
 module.exports = {
@@ -57,7 +58,8 @@ module.exports = {
       babelrc: true,
       runtimeHelpers: true
     }),
-
+    serve(),
+    livereload('dist')
     // terser()
   ]
 }
